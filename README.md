@@ -1,8 +1,7 @@
 # Dulce-Odin-OCDS: An Ex-Ante Semantic Conflict Detection System for Davao City Ordinances
 
-**Institution:** Ateneo de Davao University, Department of Computer Science  
-**Authors:** Ralph Paolo Dulce & Yahyah Odin  
-**Adviser:** Mr. Adrian "Ogs" Ablazo | **Professor:** Ma'am Grace Tacadao  
+**Institution:** Ateneo de Davao University, Computer Studies Cluster 
+**Authors:** Ralph Paolo Dulce & Yahyah Odin   
 **Project:** *"A Coarse-to-Fine Semantic Conflict Detection System for Ex-Ante Davao City Ordinances Using Information Retrieval and Natural Language Inference"*
 
 ---
@@ -12,7 +11,7 @@
 **Dulce-Odin-OCDS** is an open-source, ex-ante semantic conflict detection system designed to audit draft municipal ordinances for legal inconsistencies prior to legislative enactment. Operating within the Philippine legal framework under the **Magtajas v. Pryce Properties** doctrine and Republic Act No. 7160 (Local Government Code of 1991), the system systematically flags both:
 1. **Vertical Conflicts (Statutory Preemption):** Inconsistencies where a draft local ordinance permits what a superior national statute forbids, or forbids what a national statute permits.
 2. **Horizontal Conflicts (Intra-Jurisdictional Coherence):** Inconsistencies where a draft ordinance contradicts, duplicates, or inadvertently causes an implied repeal of existing Davao City ordinances.
-
+This project was made in partial fulfillment of the undergraduate thesis for BS Computer Science 
 ---
 
 ## System Architecture
@@ -195,10 +194,8 @@ Evaluated on the canonical edge LGU testbed (Intel Core i3-10105F, 8 GB RAM, Win
 
 ## Authors & Acknowledgments
 
-- **Ralph Paolo Dulce** (`rp.dulce@addu.edu.ph`) — Proponent, Ateneo de Davao University
-- **Yahyah Odin** (`y.odin@addu.edu.ph`) — Proponent, Ateneo de Davao University
-- **Mr. Adrian "Ogs" Ablazo** — Thesis Adviser
-- **Ma'am Grace Tacadao** — Course Professor, Department of Computer Science
+- **Ralph Paolo Dulce** (`rppdulce@addu.edu.ph`) — Proponent, Ateneo de Davao University
+- **Yahyah Odin** (`ysodin@addu.edu.ph`) — Proponent, Ateneo de Davao University
 
 We gratefully acknowledge the **Sangguniang Panlungsod of Davao City** for archival ordinance access and legislative research collaboration.
 
@@ -207,3 +204,4 @@ We gratefully acknowledge the **Sangguniang Panlungsod of Davao City** for archi
 ## License
 
 This project is developed for academic research purposes at Ateneo de Davao University. All Philippine statutes and Supreme Court decisions are public domain under Section 176 of Republic Act No. 8293 (Intellectual Property Code of the Philippines).
+
