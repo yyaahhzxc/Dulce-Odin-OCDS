@@ -1,0 +1,43 @@
+# ====================================================================
+# Git Ignore Configuration for Dulce-Odin-OCDS
+# ====================================================================
+
+# Python Environment & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Large Generated Datasets (>100 MB GitHub limit)
+data/unified_dual_statutory_provisions*.jsonl
+corpus/categorized_national_laws.jsonl
+output/categorized_corpus.jsonl
+output/dual_corpus_embeddings_minilm.npy
+output/dual_corpus_bm25.pkl
+output/statutory_topic_model.pkl
+output/emb_checkpoints/
+output/kaggle*/
+output/gt350_retrieval_cache.json
+output/embedding_progress.json
+
+# Large Scanned PDFs
+corpus/city_ordinances/**/*.pdf
+corpus/city_ordinances/*.pdf
+corpus/raw/local/**/*.pdf
+data/flagged_scans_pdf/
+
+# Pretrained Model Weights (downloaded via Hugging Face)
+models/
+
+# OS & Editor Artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tmp
+~$*
+.env
+*.env
